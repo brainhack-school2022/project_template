@@ -1,6 +1,6 @@
 ---
 type: "project" # DON'T TOUCH THIS ! :)
-date: "2020-05-16" # Date you first upload your project.
+date: "2022-07-22" # Date you first upload your project.
 # Title of your project (we like creative title)
 title: "This is an example project page which serves as a template"
 
@@ -8,7 +8,7 @@ title: "This is an example project page which serves as a template"
 names: [Johanna Bayer]
 
 # Your project GitHub repository URL
-github_repo: https://github.com/likeajumprope/normative_twin_repo
+github_repo: https://github.com/likeajumprope/normative_twins_project
 
 # If you are working on a project that has website, indicate the full url including "https://" below or leave it empty.
 website:
