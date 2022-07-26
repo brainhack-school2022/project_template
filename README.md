@@ -5,17 +5,17 @@ date: "2020-05-16" # Date you first upload your project.
 title: "This is an example project page which serves as a template"
 
 # List the names of the collaborators within the [ ]. If alone, simple put your name within []
-names: [Samuel Guay, Pierre Bellec]
+names: [Johanna Bayer]
 
 # Your project GitHub repository URL
-github_repo: https://github.com/PSY6983-2021/project_template
+github_repo: https://github.com/likeajumprope/normative_twin_repo
 
 # If you are working on a project that has website, indicate the full url including "https://" below or leave it empty.
 website:
 
 # List +- 4 keywords that best describe your project within []. Note that the project summary also involves a number of key words. Those are listed on top of the [github repository](https://github.com/PSY6983-2021/project_template), click `manage topics`.
 # Please only lowercase letters
-tags: [project, github, markdown, brainhack]
+tags: [normative_modelling, twins, python, mri]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
@@ -23,7 +23,7 @@ summary: "Each project repository should have a markdown file explaining the bac
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
-image: ""
+image: "./images/normative.png"
 ---
 <!-- This is an html comment and this won't appear in the rendered page. You are now editing the "content" area, the core of your description. Everything that you can do in markdown is allowed below. We added a couple of comments to guide your through documenting your progress. -->
 
@@ -38,9 +38,9 @@ Inspired by the [Recurse Centre](https://www.recurse.com/) initiative (formally 
 ### Tools
 
 The "project template" project will rely on the following technologies:
- * Markdown, to structure the text.
- * The Hugo website framework which is used by the BHS website. This makes it possible to easily add the markdown project description to the website.
- * Adding the project to the website relies on github, through pull requests.
+ * PNC toolkit.
+ * python packaging.
+ * google collab.
 
 ### Data
 
@@ -49,8 +49,8 @@ Ultimately, the project template will be used by all BHS participants. Data on t
 ### Deliverables
 
 At the end of this project, we will have:
- - The current markdown document, completed and revised.
- - A gallery of the student projects at Brainhack 2020.
+ - A first run  of the PNC toolkit on the twin data.
+ - A package to structure the data to be able to load them into toolkit.
  - Instructions on the website about how to submit a pull request to the [brainhack school website](https://github.com/PSY6983-2021) in order to add the project description to the website.
 
 ## Results
