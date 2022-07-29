@@ -44,9 +44,10 @@ Similarly, normative models can be used in neuroimaging to describe an individua
 ### Tools
 
 The "project template" project will rely on the following technologies:
- * PNC toolkit.
+ * Nomrative modelling using the PNC toolkit.
  * python packaging.
  * google collab.
+ * the [brainahck cloud](https://brainhack.org/brainhack_cloud/)
 
 ### Data
 
