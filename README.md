@@ -64,6 +64,9 @@ At the end of this project, we will have:
 
 ## Results
 
+I was able to run the data set on the data set, for males and females separately.
+
+
 ### Progress overview
 
 The project was swiftly initiated by P Bellec, based on the existing template created in 2019 by Tristan Glatard and improved by different students. It was really not that hard. Community feedback is expected to lead to rapid further improvements of this first version.
