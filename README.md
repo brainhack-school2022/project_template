@@ -44,12 +44,14 @@ Similarly, normative models can be used in neuroimaging to describe an individua
 ### Tools
 
 The "project template" project will rely on the following technologies:
- * Nomrative modelling using the [PCN toolkit](https://github.com/amarquand/PCNtoolkit)
+ * Normative modelling using the [PCN toolkit](https://github.com/amarquand/PCNtoolkit)
  * python packaging.
  * google collab.
  * the [brainahck cloud](https://brainhack.org/brainhack_cloud/)
 
 ### Data
+
+The data for this project  is the [Queensland Twin IMaging (QTIM)](https://openneuro.org/datasets/ds004169/versions/1.0.5) dataset: a multimodal neuroimaging dataset of young adult twins and siblings (18-30 years, N = 1026), including a subsample of participants, scanned a second time to assess test-retest reliability (N = 78, test-retest interval ~ 3.5 months).
 
 Ultimately, the project template will be used by all BHS participants. Data on the different projects will be aggregareted on the [following page](https://psy6983.brainhackmtl.org/project). This will serve as an additional example gallery in the years to come for future brainhack school students. Many reports from [BHS 2020](https://github.com/brainhack-school2020) already used this template.
 
