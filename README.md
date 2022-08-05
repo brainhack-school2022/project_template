@@ -67,15 +67,17 @@ At the end of this project, we will have:
 I was able to run the data set on the data set, for males and females separately.
 
 
+
+
 ### Progress overview
 
-The project was swiftly initiated by P Bellec, based on the existing template created in 2019 by Tristan Glatard and improved by different students. It was really not that hard. Community feedback is expected to lead to rapid further improvements of this first version.
+
 
 ### Tools I learned during this project
 
- * **Meta-project** P Bellec learned how to do a meta project for the first time, which is developping a framework while using it at the same time. It felt really weird, but somehow quite fun as well.
- * **Github workflow-** The successful use of this template approach will demonstrate that it is possible to incorporate dozens of students presentation on a website collaboratively over a few weeks.
- * **Project content** Through the project reports generated using the template, it is possible to learn about what exactly the brainhack school students are working on.
+ * **Deeper understanding of teh PNC toolkit**  it at the same time. It felt really weird, but somehow quite fun as well.
+ * **Python packaging** The successful use of this template approach will demonstrate that it is possible to incorporate dozens of students presentation on a website collaboratively over a few weeks.
+ * **Python testing** Through the project reports generated using the template, it is possible to learn about what exactly the brainhack school students are working on.
 
 ### Results
 
