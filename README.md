@@ -65,6 +65,13 @@ At the end of this project, we will have:
 ## Results
 
 I was able to run the data set on the data set, for males and females separately.
+These are preliminary results:
+
+image: "./images/females.png"
+
+image: "./images/males.png"
+
+
 
 
 
@@ -75,7 +82,7 @@ I was able to run the data set on the data set, for males and females separately
 
 ### Tools I learned during this project
 
- * **Deeper understanding of teh PNC toolkit**  it at the same time. It felt really weird, but somehow quite fun as well.
+ * **Deeper understanding of the PNC toolkit**  it at the same time. It felt really weird, but somehow quite fun as well.
  * **Python packaging** The successful use of this template approach will demonstrate that it is possible to incorporate dozens of students presentation on a website collaboratively over a few weeks.
  * **Python testing** Through the project reports generated using the template, it is possible to learn about what exactly the brainhack school students are working on.
 
