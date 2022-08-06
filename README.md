@@ -19,11 +19,12 @@ tags: [normative_modelling, twins, python, mri]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "Each project repository should have a markdown file explaining the background and objectives of the project, as well as a summary of the results, and links to the different deliverables of the project. Project reports are incorporated in the BHS [website](https://psy6983.brainhackmtl.org/project)."
+summary: "In this project I am trying to train and test a normative model on a neuroimaging data set containing twin longitudinal data. I want to look at both changes of deviations in  z-scores over time and differences in z-scores between twins "
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
 
+<img src="images/normative.png" width="400">
 
 
 ---
