@@ -32,7 +32,7 @@ summary: "Each project repository should have a markdown file explaining the bac
 ## Project definition
 
 ### Title
-Normative modelling on structural neuroimaging data from the Queensland Twin IMaging (QTIM) data set to compare individualized deviations of twins from the norm
+Normative modelling on structural neuroimaging data from the Queensland Twin IMaging (QTIM) data set to compare individualized deviations of twins from the norm.
 ### Background
 
 Normative modelling is known from growth charts, where it describes height in form of an individualized z-score/percentile score of deviation from the norm.
@@ -41,11 +41,7 @@ Similarly, normative models can be used in neuroimaging to describe an individua
 
 <img src="images/normative.png" width="400">
 
-<!--Inspired by the [Recurse Centre](https://www.recurse.com/) initiative (formally known as the "hacker school"), Brainhack School was established in 2018 with the mission to train students from multidisciplinary backgrounds to a panoply of reproducible tools for neural data science, using a project-based approach. Following an initial 3-weeks long pilot, a 4th week was added with an intensive bootcamp, so that students could choose what tools to learn more deeply in their projects. As the course became integrated in standard curriculum at different universities, the formula seemed to be working. In order to streamline the different stages of the project, some standard template and milestones needed to be incorporated in a github-based workflow. The "project template" project (which is also our first BHS meta-project) aims at establishing such a standardized template. You can check the following [video](https://youtu.be/PTYs_JFKsHI) where Pierre Bellec gives an overview of the Brainhack school.-->
-
-<!--iframe width="560" height="315" src="https://www.youtube.com/embed/PTYs_JFKsHI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe-->
-
-### Tools
+## Tools
 
 The "project template" project will rely on the following technologies:
  * Normative modelling using the [PCN toolkit](https://github.com/amarquand/PCNtoolkit)
@@ -57,19 +53,25 @@ The "project template" project will rely on the following technologies:
 
 The data for this project  is the [Queensland Twin IMaging (QTIM)](https://openneuro.org/datasets/ds004169/versions/1.0.5) dataset: a multimodal neuroimaging dataset of young adult twins and siblings (18-30 years, N = 1026), including a subsample of participants, scanned a second time to assess test-retest reliability (N = 78, test-retest interval ~ 3.5 months).
 
-Ultimately, the project template will be used by all BHS participants. Data on the different projects will be aggregareted on the [following page](https://psy6983.brainhackmtl.org/project). This will serve as an additional example gallery in the years to come for future brainhack school students. Many reports from [BHS 2020](https://github.com/brainhack-school2020) already used this template.
+I am going to use the derivatives from FreeSurfer parcellation that can be downloaded from the repository:
+* cortical thickness data (mm)
+* cortical surface area data (mm^2)
+* subcortical volumes data (mm^3) 
+
 
 ### Deliverables
 
 At the end of this project, we will have:
  - A first run  of the PNC toolkit on the twin data.
  - A package to structure the data to be able to load them into toolkit.
- - Instructions on the website about how to submit a pull request to the [brainhack school website](https://github.com/PSY6983-2021) in order to add the project description to the website.
+ - Tests that are integrated into the package to test the input data.
 
 ## Results
 
-I was able to run the data set on the data set, for males and females separately.
+I was able to run the model on an initial region the data set, for males and females separately.
 These are preliminary results:
+
+## Predictions for the thickness of the right insula cortex (mm^2):
 
 ### Predictions for women:
 <img src="./images/females.png" width="400">
@@ -79,45 +81,29 @@ These are preliminary results:
 
 ### Progress overview
 
+* the model was trained using a **2 fold cross validation** 
+* the model calculates **measures of model fit**, such as:
+    * explained variance
+    * standardized root mean square error
+    * Pearson's correlation coefficient
+
+
 ### Tools I learned during this project
 
- * **Deeper understanding of the PNC toolkit**  it at the same time. It felt really weird, but somehow quite fun as well.
- * **Python packaging** The successful use of this template approach will demonstrate that it is possible to incorporate dozens of students presentation on a website collaboratively over a few weeks.
- * **Python testing** Through the project reports generated using the template, it is possible to learn about what exactly the brainhack school students are working on.
+ * **Deeper understanding of the PNC toolkit** I have now a better understanding of the Python implementation, and I customized the implementation in the Jupyter book that is included in this repository.
+ * **Python packaging** I wrote my first ever Python package.
+ * **Python testing** I added some tests to the package, which gave me a deeper understanding of unit tests in Python.
 
-### Results
-
-#### Deliverable 1: report template
-
-You are currently reading the report template! I will let you judge whether it is useful or not. If you think there is something that could be improved, please do not hesitate to open an issue [here](https://github.com/PSY6983-2021/project_template/issues/) and let us know.
-
-#### Deliverable 2: project gallery
-
-You can check out the [2020 BrainHack School project gallery](https://psy6983.brainhackmtl.org/project/)
-
-##### ECG pupilometry pipeline by Marce Kauffmann
-
-The repository of this project can be found [here](https://github.com/mtl-brainhack-school-2019/ecg_pupillometry_pipeline_kaufmann). The objective was to create a processing pipeline for ECG and pupillometry data. The motivation behind this task is that Marcel's lab (MIST Lab @ Polytechnique Montreal) was conducting a Human-Robot-Interaction user study. The repo features:
- * a [video introduction](http://www.youtube.com/watch/8ZVCNeX42_A) to the project.
- * a presentation [made in a jupyter notebook](https://github.com/mtl-brainhack-school-2019/ecg_pupillometry_pipeline_kaufmann/blob/master/BrainHackPresentation.ipynb) on the results of the project.
- * Notebooks for all analyses.
- * Detailed requirements files, making it easy for others to replicate the environment of the notebook.
- * An overview of the results in the markdown document.
 
 ##### Other projects
 Here are other good examples of repositories:
-- [Learning to manipulate biosignals with python](https://github.com/mtl-brainhack-school-2019/franclespinas-biosignals) by François Lespinasse
-- [Run multivariate anaylysis to relate behavioral and electropyhysiological data](https://github.com/mtl-brainhack-school-2019/PLS_PV_Behaviour)
-- [PET pipeline automation and structural MRI exploration](https://github.com/mtl-brainhack-school-2019/rwickens-sMRI-PET) by Rebekah Wickens
-- [Working with PSG [EEG] data from Parkinson's patients](https://github.com/mtl-brainhack-school-2019/Soraya-sleep-data-in-PD-patients) by Cryomatrix
-- [Exploring Brain Functional Activation in Adolescents Who Attempted Suicide](https://github.com/mtl-brainhack-school-2019/Anthony-Gifuni-repo) by Anthony Gifuni
+- [The Predictive Clinical Neuroscience toolkit](https://github.com/amarquand/PCNtoolkit) by Andre Marquand's group
 
-#### Deliverable 3: Instructions
+## Next steps
+* run the model on remaining brian regions
+* look at changes of z-scores over time within individuals
+* look at twin differences
 
- To be made available soon.
 
 ## Conclusion and acknowledgement
-
-The BHS team hope you will find this template helpful in documenting your project. Developping this template was a group effort, and benefitted from the feedback and ideas of all BHS students over the years.
-
-You can also make submit your project to neurolibre https://neurolibre.org/. It is a preprint server for interactive data analyses. It is tailored for publishing interactive neuroscience notebooks that can seamlessly integrate data, text, code and figures.The submission instructions can be found here https://docs.neurolibre.org/en/latest/index.html and the jupyter book docs there https://jupyterbook.org/intro.html.
+I thank the brainhack school staff for all their support and hope to be able to join Brainhack school next year again!
