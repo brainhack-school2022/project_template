@@ -39,6 +39,8 @@ Normative modelling is known from growth charts, where it describes height in fo
 Similarly, normative models can be used in neuroimaging to describe an individual's deviation from a the normative variation of a  brain measure, for example from cortical thickness.
 
 
+<img src="images/normative.png" width="400">
+
 <!--Inspired by the [Recurse Centre](https://www.recurse.com/) initiative (formally known as the "hacker school"), Brainhack School was established in 2018 with the mission to train students from multidisciplinary backgrounds to a panoply of reproducible tools for neural data science, using a project-based approach. Following an initial 3-weeks long pilot, a 4th week was added with an intensive bootcamp, so that students could choose what tools to learn more deeply in their projects. As the course became integrated in standard curriculum at different universities, the formula seemed to be working. In order to streamline the different stages of the project, some standard template and milestones needed to be incorporated in a github-based workflow. The "project template" project (which is also our first BHS meta-project) aims at establishing such a standardized template. You can check the following [video](https://youtu.be/PTYs_JFKsHI) where Pierre Bellec gives an overview of the Brainhack school.-->
 
 <!--iframe width="560" height="315" src="https://www.youtube.com/embed/PTYs_JFKsHI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe-->
@@ -69,9 +71,11 @@ At the end of this project, we will have:
 I was able to run the data set on the data set, for males and females separately.
 These are preliminary results:
 
-image: "./images/females.png"
+### Predictions for women:
+<img src="./images/females.png" width="400">
 
-image: "./images/males.png"
+### Predictions for men:
+<img src="./images/males.png" width="400">
 
 ### Progress overview
 
